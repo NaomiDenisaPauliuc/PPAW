@@ -1,0 +1,12 @@
+/* reset.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* GlobalStyles.css or reset.css */
+* {
+  box-sizing: border-box;
+}
+
+/* Additional global reset styles as needed */

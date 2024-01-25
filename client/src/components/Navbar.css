@@ -1,0 +1,136 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  padding: 0px;
+  left: 0px;
+  scroll-behavior: smooth;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4caf50;
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+body {
+  position: relative;
+  top: 30px;
+  font-family: "Cabin Condensed";
+  font-size: 18pt;
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+}
+h1 {
+  font-size: 24pt;
+  color: #08bdbd;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+h1 span {
+  border: 4px dashed #08bdbd;
+  padding: 10px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.form {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#header {
+  background-image: url("banner.png");
+  background-size: cover;
+  text-align: center;
+  font-size: 40pt;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.social {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#contacts img:hover {
+  opacity: 0.8;
+}
+.quote {
+  font-size: 14pt;
+  text-align: right;
+  margin-top: 10px;
+}
+ul {
+  text-align: left;
+  list-style-position: outside;
+}
+
+textarea {
+  height: 100px;
+  min-height: 40px;
+  min-width: 70%;
+  max-width: 70%;
+}
+input,
+textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
+}
+.submit:hover {
+  background-color: #cfcfcf;
+}
+
+.copyright {
+  text-align: right;
+  font-size: 10pt;
+  padding-bottom: 10px;
+  color: grey;
+}
